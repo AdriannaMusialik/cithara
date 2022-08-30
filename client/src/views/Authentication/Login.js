@@ -6,7 +6,7 @@ import {
   StyledInputText,
   StyledButton,
   StyledLink,
-} from "./Login.style";
+} from "./Authentication.style";
 import { Link } from "react-router-dom";
 
 export const Login = () => {
@@ -33,13 +33,13 @@ export const Login = () => {
               maxLength="30"
             />
           </div>
+          <StyledButton>Zaloguj się</StyledButton>
           <StyledLink>
-            <Link to="/register">Zarejestruj się</Link>
+            <Link to="/register">Nie masz konta? Zarejestruj się</Link>
           </StyledLink>
           <StyledLink>
             <Link to="/forgotpass">Przypomnij hasło</Link>
           </StyledLink>
-          <StyledButton>Zaloguj się</StyledButton>
         </StyledBoxBackground>
       </StyledWrapper>
     </>
