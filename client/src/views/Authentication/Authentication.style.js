@@ -43,8 +43,8 @@ export const StyledInputText = styled.input`
 
 export const StyledLink = styled.p`
   font-family: "Play", sans-serif;
-  margin: 20px 0px 10px 3px;
-  font-size: 16px;
+  margin: px 0px 10px 3px;
+  font-size: 10px;
   font-weight: bold;
   cursor: pointer;
 `;
@@ -55,7 +55,7 @@ export const StyledButton = styled.button`
   font-size: 16px;
   background-color: #1abcf7;
   opacity: 1;
-  margin-top: 20px;
+  margin: 20px 0 20px 0;
   border: 0px;
   border-radius: 30px;
   font-weight: bold;
